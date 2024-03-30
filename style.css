@@ -1,0 +1,89 @@
+#body{
+    background-color: chocolate;
+    position: absolute;
+    height: 300px;
+    right: 100px;
+    left: 100px;
+    top: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    z-index: 2;
+}
+#lhand{
+    background-color: chocolate;
+    position: absolute;
+    height: 300px;
+    width: 100px;
+    left: 200px;
+    top: 300px;
+}
+#rhand{
+    background-color: chocolate;
+    position: absolute;
+    height: 300px;
+    width: 100px;
+    right: 200px;
+    top: 300px;
+}
+img{
+    height: 140%;
+    width: 100%;
+}
+#lhandclaw1{
+    position: absolute;
+    background-color: chocolate;
+    height: 50px;
+    width: 30px;
+    bottom: -50px;
+    left: 0px;
+}
+#lhandclaw2{
+    position: absolute;
+    background-color: chocolate;
+    height: 50px;
+    width: 30px;
+    bottom: -50px;
+    right: 0px;
+}
+#rhandclaw1{
+    position: absolute;
+    background-color: chocolate;
+    height: 50px;
+    width: 30px;
+    bottom: -50px;
+    left: 0px;
+}
+#rhandclaw2{
+    position: absolute;
+    background-color: chocolate;
+    height: 50px;
+    width: 30px;
+    bottom: -50px;
+    right: 0px;
+}
+#eye1{
+    position: absolute;
+    background-color: black;
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    bottom: 0px;
+    left: 350px;
+    transition: 1s;
+}
+#eye2{
+    position: absolute;
+    background-color: black;
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    bottom: 0px;
+    right: 350px;
+    transition: 1s;
+}
+#eye1:hover{
+    transform: scaleY(0);
+}
+#eye2:hover{
+    transform: scaleY(0);
+}
